@@ -1,0 +1,39 @@
+O que é o Git Bash?
+O Git Bash é o aplicativo para ambientes do Microsoft Windows que oferece a camada de emulação para a experiência de linha de comando Git. 
+Bash é acrônico para "Bourne Again Shell". Shells são aplicativos terminais usados como interface em sistemas operacionais por meio de comandos gravados. 
+O Shell é o padrão popular no Linux e no macOS. 
+O Git Bash é o pacote que instala o Bash, alguns utilitários de bash comuns e o Git nos sistemas operacionais Windows.
+
+Como instalar Git Bash
+O Git Bash é incluído como parte do pacote Git para Windows (https://gitforwindows.org/). 
+Baixe e instale o Git para Windows como todos os outros aplicativos. 
+Após baixar, procure e abra o arquivo .exe para executar o Git Bash.
+
+Como usar o Git Bash
+O Git Bash tem as mesmas operações da experiência Bash padrão. É útil rever o uso básico do Bash. O uso avançado do Bash está fora do escopo desse documento focado em Git.
+
+Como navegar pelas pastas
+O comando do Bash pwd é usado para exibir o "diretório de trabalho atual". 
+O pwd é equivalente ao executar o cd em terminais DOS (host do console do Windows). 
+Essa é a pasta ou o caminho no qual está a sessão de Bash atual.
+
+O comando do Bash ls é usado para listar o conteúdo do diretório de trabalho atual. 
+O ls é equivalente ao DIR em terminais de host do console do Windows.
+
+O Bash e o host do console do Windows têm o comando cd. cd é acrônimo para "Change Directory". 
+O cd é chamado junto com o nome do diretório. 
+Executar o cd muda as sessões dos terminais atuais que trabalham no diretório para o argumento de diretório passado.
+
+Comandos do Git Bash
+O Git Bash é empacotado com comandos adicionais que podem ser encontrados no diretório /usr/bin da emulação. 
+O Git Bash pode oferecer experiências robustas de shell no Windows. Ele é empacotado com os comandos de shell a seguir, que estão fora do escopo desse documento Ssh, scp, cat, find.
+
+Além do conjunto mencionado de comandos do Bash, o Git Bash inclui o conjunto completo dos principais comandos do Git discutidos nesse site. 
+Saiba mais nas páginas de documentação correspondentes do git clone, git commit, git checkout, git push e muito mais. -> https://www.atlassian.com/br/git/tutorials/git-bash
+
+Como usar:
+
+1) Abra um novo bloco de notas (notepad) e salva o documento com o nome OpenGitBash.reg e o tipo como todos os arquivos
+2) Cole o seguinte script dentro desse documento em branco:
+3) Clique no arquivo 2 vezes e execute:
+4) Feito isso será exibido a opção de "Open to GitBash" ao seu windows explorer.
